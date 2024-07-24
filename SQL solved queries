@@ -25,7 +25,7 @@ GROUP BY DATENAME(DW, order_date)
 7. Monthly Trend for Orders
 select DATENAME(MONTH, order_date) as Month_Name, COUNT(DISTINCT order_id) as Total_Orders
 from pizza_sales
-GROUP BY DATENAME(MONTH, order_date)Output
+GROUP BY DATENAME(MONTH, order_date)
  
 
 
@@ -78,17 +78,13 @@ FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Total_Pizza_Sold ASC
 
- 
-
-
-
-K. Top 5 Pizzas by Total Orders
+15.Top 5 Pizzas by Total Orders
 SELECT Top 5 pizza_name, COUNT(DISTINCT order_id) AS Total_Orders
 FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Total_Orders DESC
  
-L. Bottom 5 Pizzas by Total Orders
+16. Bottom 5 Pizzas by Total Orders
 SELECT Top 5 pizza_name, COUNT(DISTINCT order_id) AS Total_Orders
 FROM pizza_sales
 GROUP BY pizza_name
