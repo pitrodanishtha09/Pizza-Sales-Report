@@ -5,6 +5,4 @@
 4) Provided actionable insights leading to improved marketing and sales strategies.
 
 **Tools and Technologies used:**
-1 Power BI 
-2 SQL Queries
-3 MSSQL
+ Power BI , SQL Queries, MSSQL
